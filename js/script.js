@@ -4,7 +4,7 @@ console.log('Gracz wpisał: ' + playerInput);
 
 let playerMove = 'nieznany ruch';
 
-if(playerInput == '1'){
+if(playerInput == 1){
   playerMove = 'kamień';
 } else if (playerInput == 2) {
   playerMove = 'papier';
@@ -53,4 +53,3 @@ if(computerMove == 'kamień' && playerMove == 'papier') {
 } else {
   printMessage('Remis!');
 }
-
