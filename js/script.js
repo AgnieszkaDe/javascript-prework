@@ -4,7 +4,7 @@
 
     //Rules for computer and player
 
-    function getMoveName(argMoveId){
+    const getMoveName = function(argMoveId) {
       if(argMoveId == 1){
         return 'kamień';
       } else if (argMoveId == 2){
@@ -33,7 +33,7 @@
       if (argComputerMove == 'kamień' ...)
     }
     */
-    function displayResult(argComputerMove, argPlayerMove){
+    const displayResult = function(argComputerMove, argPlayerMove) {
       console.log('Do displayResult wpadły: ' + argComputerMove + ' i ' + argPlayerMove);
       if(argComputerMove == 'kamień' && argPlayerMove == 'papier'){
         return 'Ty wygrywasz!';
